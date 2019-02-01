@@ -137,6 +137,7 @@ int main(){
 		tmp[0]='0';
 		out();
 		system("start player1.exe");
+		stop(500);
 		tmp[0]='1';
 		out();
 		system("start player2.exe");
